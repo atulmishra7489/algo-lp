@@ -1,0 +1,470 @@
+.first {
+  width: 100vw;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background: linear-gradient(270deg, #05445e 0%, #022534 100%);
+  margin-bottom: 4vw;
+}
+.image {
+  /* position: absolute; */
+  width: 50vw;
+  margin-right: 0.5vw;
+  margin-top: -3.5vw;
+}
+#imagec1 {
+  width: 50vw;
+  height: 67vw;
+}
+.heading {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 4vw;
+
+  /* or 100% */
+
+  letter-spacing: -0.03em;
+
+  color: #ffffff;
+}
+.para {
+  width: 33vw;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.3vw;
+
+  /* or 167% */
+
+  letter-spacing: -0.03em;
+  margin-bottom: 2vw;
+  color: #ffffff;
+}
+.content {
+  width: 50vw;
+  margin-left: 10vw;
+  margin-top: 10vw;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 35vw;
+  height: 4vw;
+  /* margin-bottom: 0vw; */
+}
+.btn {
+  margin-right: 2vw;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+
+  /* identical to box height, or 218% */
+  background: linear-gradient(90.76deg, #ffffff 0%, #dff6ff 144.63%);
+  border: none;
+  border-radius: 0.5vw;
+  text-align: center;
+  letter-spacing: -0.03em;
+
+  color: #05445e;
+  font-size: 1.2vw;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 2vw 4vw;
+  gap: 10px;
+}
+.btn1 {
+  font-size: 1.2vw;
+  /* width: 12vw; */
+  /* height: 4vw; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 2vw 4vw;
+  gap: 10px;
+  border: 1px solid;
+
+  border-image-source: linear-gradient(
+    94.05deg,
+    #ffffff -161.35%,
+    rgba(255, 255, 255, 0) 99.97%
+  );
+  background: linear-gradient(94.24deg, #033042 -0.03%, #005c83 99.97%);
+  text-align: center;
+  border-radius: 0.5vw;
+  letter-spacing: -0.03em;
+
+  color: #ffffff;
+}
+.four {
+  margin-top: -1vw;
+  margin-bottom: 1vw;
+}
+#bimg {
+  width: 4vw;
+  margin-right: 1vw;
+  margin-bottom: 1vw;
+}
+.boxp {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.3vw;
+
+  /* identical to box height, or 167% */
+
+  letter-spacing: -0.03em;
+
+  color: #ffffff;
+}
+.second {
+  width: 100vw;
+  margin-bottom: 4vw;
+  display: flex;
+  flex-direction: row;
+  background: #ffffff;
+  background-image: url("image/Vector.svg");
+  justify-content: center;
+}
+#vectimg {
+  position: absolute;
+
+  width: 100vw;
+}
+.container {
+  width: 50vw;
+  margin-left: 10vw;
+  margin-top: 7vw;
+}
+.cont-heading {
+  width: 30vw;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 4vw;
+  letter-spacing: -0.03em;
+  color: #000000;
+}
+.cont-para {
+  width: 39vw;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5vw;
+  letter-spacing: -0.03em;
+  color: #000000;
+}
+#rectimg {
+  width: 3vw;
+  margin-right: 1vw;
+  margin-bottom: 1vw;
+}
+.rectp {
+  width: 13vw;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1vw;
+  /* line-height: 2vw; */
+  /* or 112% */
+
+  letter-spacing: -0.03em;
+
+  color: #000000;
+}
+.pricing {
+  justify-content: center;
+  width: 30vw;
+  margin-right: 10vw;
+  margin-top: 1vw;
+  display: flex;
+  flex-direction: column;
+}
+.upperone {
+  padding-left: 2vw;
+  /* justify-content: center; */
+  margin-top: 2vw;
+  border: 0.5px solid skyblue;
+  background: #ffffff;
+  border-radius: 1vw 1vw 0vw 0vw;
+  overflow: hidden;
+  z-index: 1;
+  /* background-image: url("/"); */
+}
+.upperhead {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.37vw;
+  line-height: 1.5;
+  /* line-height: 32px; */
+  letter-spacing: -0.03em;
+  color: #0f0f0f;
+}
+.upperhead2 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3vw;
+
+  line-height: 0;
+  /* line-height: 72px; */
+  letter-spacing: -0.03em;
+  text-decoration-line: line-through;
+  color: #818181;
+}
+.upperhead3 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 4vw;
+  line-height: 1;
+  /* line-height: 72px; */
+  letter-spacing: -0.03em;
+  background: linear-gradient(90deg, #3f6fc1 0%, #05445e 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.lowerone {
+  padding-top: 2vw;
+  padding-left: 2vw;
+  border-radius: 0vw 0vw 1vw 1vw;
+  background: linear-gradient(270deg, #05445e 0%, #022534 100%);
+  z-index: 1;
+  /* mix-blend-mode: color-dodge; */
+  /* opacity: 0.06; */
+}
+#azimg {
+  width: 22vw;
+  opacity: 0.1;
+  margin: -2vw -6vw -5vw -1vw;
+}
+#bimg1 {
+  width: 4vw;
+  margin-right: 1vw;
+  margin-bottom: 1vw;
+}
+.boxp1 {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.3vw;
+
+  /* identical to box height, or 167% */
+
+  letter-spacing: -0.03em;
+
+  color: #ffffff;
+}
+.btn2 {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5vw;
+  background: linear-gradient(90.76deg, #ffffff 0%, #dff6ff 144.63%);
+  border-radius: 4px;
+  /* identical to box height, or 218% */
+
+  text-align: center;
+  letter-spacing: -0.03em;
+
+  color: #043c53;
+
+  width: 27vw;
+  margin-bottom: 2vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* padding: 0.5vw 0.5vw 0.5vw 0.5vw; */
+}
+.heading2 {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5vw;
+  /* or 112% */
+  line-height: 0;
+  letter-spacing: -0.03em;
+
+  color: #000000;
+}
+
+.four {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5vw;
+}
+
+@media only screen and (max-width: 450px) {
+  .first {
+    width: 100vw;
+    flex-direction: column;
+  }
+  .content {
+    width: 80vw;
+  }
+  .heading {
+    width: 90vw;
+    font-size: 8.6vw;
+  }
+  .para {
+    width: 84vw;
+    font-size: 3.5vw;
+  }
+  .content2 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .buttons {
+    flex-direction: column;
+    width: 90vw;
+  }
+  .btn {
+    margin-bottom: 2.5vw;
+    width: 80vw;
+    height: 5vw;
+    font-size: 2.2vw;
+  }
+  .btn1 {
+    width: 80vw;
+    height: 5vw;
+    font-size: 2.2vw;
+  }
+  #arrow {
+    width: 3vw;
+  }
+  .four {
+    width: 80vw;
+  }
+  #bimg {
+    width: 3vw;
+  }
+  .boxp {
+    font-size: 1.3vw;
+  }
+  .four1 {
+    width: 40vw;
+  }
+  .four2 {
+    width: 40vw;
+  }
+  .four1p {
+    zoom: 2.5;
+  }
+  #imagec1 {
+    margin-top: 5vw;
+    width: 100vw;
+  }
+  .second {
+    flex-direction: column;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    align-items: "center";
+    margin-left: 12vw;
+    margin-top: 2vw;
+    margin-bottom: 3.5vw;
+  }
+
+  .cont-heading {
+    width: 55vw;
+    font-size: 8vw;
+    letter-spacing: -0.03em;
+    line-height: 1.2em;
+    margin-bottom: 3vw;
+  }
+  .cont-para {
+    width: 77vw;
+    font-size: 3.5vw;
+    line-height: 1.2em;
+    margin-bottom: 3vw;
+  }
+  .points {
+    justify-content: center;
+    width: 57vw;
+  }
+  .points1 {
+    margin-right: 10vw;
+    width: 32vw;
+  }
+  .points11 {
+    width: 40vw;
+  }
+  #rectimg {
+    width: 8vw;
+  }
+  .heading2 {
+    font-size: 3vw;
+  }
+  .rectp {
+    width: 30vw;
+    font-size: 2.3vw;
+  }
+  .pricing {
+    margin-left: 7vw;
+    margin-right: 8vw;
+    width: 83vw;
+    margin-bottom: 4vw;
+  }
+  .upperone {
+    padding-left: 3vw;
+    margin-top: 3vw;
+  }
+  .uppercontent {
+    margin-left: 3vw;
+  }
+  .upperhead {
+    font-size: 3.5vw;
+  }
+  .upperhead2 {
+    font-size: 8vw;
+    /* line-height: 0; */
+  }
+  .upperhead3 {
+    font-size: 10vw;
+    /* line-height: 1; */
+  }
+  #azimg {
+    width: 50vw;
+    /* margin: -3vw -6vw -5vw 1vw; */
+  }
+  .lowerone {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .lcontentall {
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+  }
+  .lcontent {
+    width: 75vw;
+    margin-top: 1vw;
+  }
+  #bimg1 {
+    width: 10vw;
+    margin-right: 4vw;
+  }
+  .boxp1 {
+    font-size: 3.2vw;
+  }
+  .btn2 {
+    width: 75vw;
+    font-size: 3vw;
+    margin-bottom: 4vw;
+  }
+}
