@@ -22,6 +22,7 @@
   font-style: normal;
   font-weight: 800;
   font-size: 4vw;
+  margin-bottom: 2vw;
 
   /* or 100% */
 
@@ -35,11 +36,11 @@
   font-style: normal;
   font-weight: 400;
   font-size: 1.3vw;
+  margin-bottom: 3vw;
 
   /* or 167% */
 
   letter-spacing: -0.03em;
-  margin-bottom: 2vw;
   color: #ffffff;
 }
 .content {
